@@ -127,8 +127,9 @@ adweb.app.toBanner=function(){
 	
 	var iNow=0;
 	
-	var timer=setInterval(auto,2500);
-	
+	var timer=setInterval(auto,3500);
+	oLi[0].style.opacity=1;
+	oLi[0].style.filter="alpha(opacity=100)";
 	function auto(){
 		
 		if(iNow == oLi.length-1){
